@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Player</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <h1>Welcome to Radio and Music webiste for 24hr</h1>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="synthwave-cyberpunk-car-moewalls-com.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="radioContainer">
+        <button id="button1" class="radioButton">BBC</button>
+        <button id="button2" class="radioButton">NPR</button>
+        <button id="button3" class="radioButton">Mix 181 FM</button>
+        <button id="button4" class="radioButton">Stop</button>
+    </div>
+
+    <div id="overlay">
+        <img id="romanticImage" src="" alt="Romantic Image">
+        <span id="closeOverlay">&times;</span>
+    </div>
+
+    <audio id="audioPlayer" controls style="display:none;"></audio>
+    
+    <script src="NEW.JS"></script>
+</body>
+</html>
